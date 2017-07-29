@@ -17,7 +17,7 @@ do ->
 
 	exports.OAuthio = OAuthio
 	window.User = exports.User = exports.OAuthio.User
-	window.OAuth = exports.OAuth = exports.OAuthio.OAuth
+	window.OAuthWeb = exports.OAuth = exports.OAuthio.OAuth
 
 	if (typeof define == 'function' && define.amd)
 		define -> exports
